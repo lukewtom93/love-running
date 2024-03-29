@@ -1,3 +1,7 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@200..700&display=swap')
+
+
 /* Asterisk wildcard selector to override default styles added by browser */
 * {
     padding: 0;
@@ -20,7 +24,7 @@ header {
 }
 /* Main Content */
 main {
-    background-color: blue;
+    background-color: rgba(0, 153, 255, 0.288);
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
